@@ -1,0 +1,87 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #90f569;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+.chart-section {
+  width: 50%;
+  margin-bottom: 40px;
+}
+
+.chart-container {
+  background: white;
+  border: 2px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+  height: 400px; /* Adjust height to fit the chart */
+}
+
+.image-carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.carousel-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 50%;
+  max-width: 400px;
+  position: relative;
+}
+
+.carousel-image {
+  width: 50%;
+  max-width: 100px;
+  height: auto;
+  object-fit: cover;
+  animation: fade 5s infinite;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 0 10px;
+}
+
+/* Fade effect for carousel images */
+@keyframes fade {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+/* Responsive Styling for smaller screens */
+@media screen and (max-width: 768px) {
+  .chart-container {
+    height: 100px; /* Adjust chart height for smaller screens */
+  }
+
+  .carousel-image {
+    max-width: 150px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .carousel-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carousel-image {
+    max-width: 200px;
+    margin-bottom: 2px;
+  }
+}
