@@ -1,0 +1,43 @@
+[debug] [2024-11-29T11:04:05.438Z] ----------------------------------------------------------------------
+[debug] [2024-11-29T11:04:05.439Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mamah\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2024-11-29T11:04:05.440Z] CLI Version:   13.27.0
+[debug] [2024-11-29T11:04:05.440Z] Platform:      win32
+[debug] [2024-11-29T11:04:05.440Z] Node Version:  v23.2.0
+[debug] [2024-11-29T11:04:05.440Z] Time:          Fri Nov 29 2024 13:04:05 GMT+0200 (South Africa Standard Time)
+[debug] [2024-11-29T11:04:05.440Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-29T11:04:05.522Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-29T11:04:05.522Z] > authorizing via signed-in user (mamahotetsan@gmail.com)
+[debug] [2024-11-29T11:04:05.522Z] [iam] checking project my-app-73952 for permissions ["firebase.projects.get"]
+[debug] [2024-11-29T11:04:05.523Z] Checked if tokens are valid: true, expires at: 1732881313378
+[debug] [2024-11-29T11:04:05.523Z] Checked if tokens are valid: true, expires at: 1732881313378
+[debug] [2024-11-29T11:04:05.524Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/my-app-73952:testIamPermissions [none]
+[debug] [2024-11-29T11:04:05.524Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/my-app-73952:testIamPermissions x-goog-quota-user=projects/my-app-73952
+[debug] [2024-11-29T11:04:05.524Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/my-app-73952:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-11-29T11:04:07.802Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/my-app-73952:testIamPermissions 200
+[debug] [2024-11-29T11:04:07.802Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/my-app-73952:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-11-29T11:04:07.803Z] Checked if tokens are valid: true, expires at: 1732881313378
+[debug] [2024-11-29T11:04:07.803Z] Checked if tokens are valid: true, expires at: 1732881313378
+[debug] [2024-11-29T11:04:07.803Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/my-app-73952 [none]
+[debug] [2024-11-29T11:04:08.232Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/my-app-73952 200
+[debug] [2024-11-29T11:04:08.233Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/my-app-73952 {"projectNumber":"693430106655","projectId":"my-app-73952","lifecycleState":"ACTIVE","name":"my app","labels":{"firebase":"enabled"},"createTime":"2024-11-18T07:35:26.348401Z"}
+[info] 
+[info] === Serving from 'C:\Users\mamah\OneDrive\Desktop\ntlhane m'...
+[info] 
+[debug] [2024-11-29T11:04:08.237Z] Checked if tokens are valid: true, expires at: 1732881313378
+[debug] [2024-11-29T11:04:08.237Z] Checked if tokens are valid: true, expires at: 1732881313378
+[debug] [2024-11-29T11:04:08.237Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/my-app-73952/sites 
+[debug] [2024-11-29T11:04:10.693Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/my-app-73952/sites 200
+[debug] [2024-11-29T11:04:10.693Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/my-app-73952/sites {"sites":[{"name":"projects/my-app-73952/sites/my-app-73952","defaultUrl":"https://my-app-73952.web.app","appId":"1:693430106655:web:09faf3b2f84e5e8262332a","type":"DEFAULT_SITE"}]}
+[debug] [2024-11-29T11:04:10.693Z] Checked if tokens are valid: true, expires at: 1732881313378
+[debug] [2024-11-29T11:04:10.693Z] Checked if tokens are valid: true, expires at: 1732881313378
+[debug] [2024-11-29T11:04:10.694Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/my-app-73952/webApps/1:693430106655:web:09faf3b2f84e5e8262332a/config [none]
+[debug] [2024-11-29T11:04:12.229Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/my-app-73952/webApps/1:693430106655:web:09faf3b2f84e5e8262332a/config 200
+[debug] [2024-11-29T11:04:12.230Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/my-app-73952/webApps/1:693430106655:web:09faf3b2f84e5e8262332a/config {"projectId":"my-app-73952","appId":"1:693430106655:web:09faf3b2f84e5e8262332a","storageBucket":"my-app-73952.firebasestorage.app","apiKey":"AIzaSyCsdH352a8YKDi_ZIyndpSGstb3pAbt1rM","authDomain":"my-app-73952.firebaseapp.com","messagingSenderId":"693430106655"}
+[debug] [2024-11-29T11:04:12.263Z] Checked if tokens are valid: true, expires at: 1732881313378
+[debug] [2024-11-29T11:04:12.263Z] Checked if tokens are valid: true, expires at: 1732881313378
+[debug] [2024-11-29T11:04:12.264Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/my-app-73952 [none]
+[debug] [2024-11-29T11:04:12.741Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/my-app-73952 200
+[debug] [2024-11-29T11:04:12.742Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/my-app-73952 {"projectId":"my-app-73952","projectNumber":"693430106655","displayName":"my app","name":"projects/my-app-73952","resources":{"hostingSite":"my-app-73952"},"state":"ACTIVE","etag":"1_ca5d2d53-8e9a-4597-b3d9-ec6dbc6a46f5"}
+[info] i  hosting[my-app-73952]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[my-app-73952]: Local server: http://localhost:5002 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5002\u001b[22m\u001b[24m"}}

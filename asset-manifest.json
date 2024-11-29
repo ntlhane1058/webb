@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kay/static/css/main.9182d6ba.css",
+    "main.js": "/kay/static/js/main.ba74d5a0.js",
+    "index.html": "/kay/index.html",
+    "main.9182d6ba.css.map": "/kay/static/css/main.9182d6ba.css.map",
+    "main.ba74d5a0.js.map": "/kay/static/js/main.ba74d5a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9182d6ba.css",
+    "static/js/main.ba74d5a0.js"
+  ]
+}

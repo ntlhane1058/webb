@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "mysql2": "^3.11.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  }
+}
